@@ -1,0 +1,46 @@
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+} */
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+#logo {
+  height: auto;
+  margin: 1em auto;
+  display: block;
+}
+
+.site-layout .site-layout-background {
+  background: transparent;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+}
+
+.sr-only {
+  display: none;
+}
+
+aside svg {
+  margin-right: 1em;
+}
+
+.leaflet-control:first-child {
+  margin-top: 80px !important;
+}
+
+.leaflet-control:last-child {
+  margin-bottom: 80px !important;
+}
